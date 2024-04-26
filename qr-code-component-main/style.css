@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(192, 216, 243);
      
     /* background-color: blanchedalmond; */
 }
@@ -16,7 +17,7 @@ body{
     height:500px;
     width: 290px;
     border-radius: 5%;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
     filter: drop-shadow(10px 10px 5px #adadad);
 }
@@ -45,5 +46,3 @@ img{
     text-align:inherit
 }
 
-/* .attribution { font-size: 7px; text-align: center; } */
-/* .attribution a { color: hsl(228, 45%, 44%); } */
