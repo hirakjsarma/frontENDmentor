@@ -16,7 +16,7 @@ body{
 }
 .banner{
     background-color: rgb(34, 34, 34);
-    height: 420px;
+    height: 430px;
     width: 250px;
     border-radius: 15px;
     display: flex;
