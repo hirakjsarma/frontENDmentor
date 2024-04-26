@@ -1,0 +1,86 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+body{
+    background-color: rgb(241, 216, 94);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+    padding-top: 15%;
+    padding-bottom: 40px;
+    padding-inline: 8%;
+    background-color: white;
+    font-family: myFirstFont;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 0px black);
+}
+
+#BannerImg{
+    height: 200px;
+    border-radius: 10%;
+   
+}
+
+button{
+    background-color: rgb(255, 213, 0);
+    font-weight: 1000;
+    padding: 2% 8%;
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+}
+
+.postDetails p{
+font-size: 12px;
+font-weight: 600;
+}
+
+
+h1{
+    font-size: larger;
+    font-style: bold;
+    font-weight: 1000;
+}
+
+h1:hover{
+    color: rgb(255, 213, 0);
+    transition: 0.2s;
+}
+p{
+    font-size: small;
+    color: grey;
+}
+h3{
+    font-size: small;
+    font-weight: 300%;
+}
+.userSection{
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.userSection h3{
+    font-style: bold;
+    font-weight: 1000;
+}
+
+.userSection img{
+    height: 35px;
+    padding: 0px 15px 0px 0px;
+}
