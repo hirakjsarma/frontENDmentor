@@ -1,0 +1,78 @@
+@font-face {
+    font-family:Oufit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Young;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Oufit;
+    color: rgb(95, 82, 75);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: max-content;
+    background-color: white;
+    padding: 18px;
+}
+
+.bannerIMG img{
+    width: 400px;
+    border-radius: 12px;    
+}
+
+h1,h3{
+    font-family: Young;
+    color: rgba(0, 0, 0, 0.755);
+}
+
+h3{
+    color: rgb(163, 72, 49);
+}
+.info{
+    border-radius: 14px;
+    background-color: rgb(255, 244, 246);
+    padding: 15px;
+}
+
+.info h3{
+    color: rgb(173, 104, 115);
+}
+
+li::marker {
+    color:rgb(163, 72, 49);
+  }
+
+ 
+
+ 
+  td {
+    width: 300px;
+    text-align: center;
+    /* border: 1px solid rgba(75, 75, 75, 0.992); */
+    padding: 5px;
+
+   
+  }
+
+
+ tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+.line {
+    border: 0.1px solid rgba(119, 136, 153, 0.146);
+  }
