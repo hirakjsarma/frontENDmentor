@@ -2,35 +2,71 @@ body{
     margin: 0;
 
 }
-
-.card{
-    background-color: antiquewhite;
+.container{
+    padding: 5% 3%;
 }
 
+.card{
+    background-color: white;
+    filter: drop-shadow(1px 1px 5px rgba(142, 144, 146, 0.773));
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.one{
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    padding: 4%;
+}
+
+.two{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    padding: 4%;
+}
+
+.three{
+    padding: 4%;
+}
+.four{
+    background-color:hsl(219, 29%, 14%) ;
+    color: white;
+    padding: 4%;
+}
+
+.five{
+    padding: 14%;
+}
 
 @media (min-width: 600px) { 
 
 main{
     display: flex;
-    height: 100vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
 }
     .container{
-        max-width: 1000px;
+        max-width: 1600px;
         display: flex;
         gap: 20px;
+      
      
     }
 
     .row-1{
         display: flex;
         flex-direction: column;
+        gap: 10px;
     }
     .row-2{
         display: flex;
         flex-basis: 20%;
+        gap: 10px;
 
+    }
+
+    .top, .bottom{
+        flex-basis: 50%;
     }
 
     .top{
