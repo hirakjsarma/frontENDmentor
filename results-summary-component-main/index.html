@@ -4,44 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
+<main>
+<div class="container">
+    <div class="divOne">
+      <div class="innerWrapper">
+       <p>Your Result</p>
+       <div class="circleScore">
+         <h1>76</h1>
+         <p>of 100</p>
+       </div>
+       
+       <h2>Great</h2>
+       <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
 
-  Your Result
-  76
-  of 100
+    <div class="divTwo">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+        <h2>Summary</h2>
+        <div class="block one">
+          <h3>Reaction</h3> 
+          <p>80 /100</p>  
+        </div>
 
-  Reaction
-  80 / 100
+        <div class="block two">   
+          <h3>Memory</h3>
+          <p>92 /100</p> 
+        </div>
 
-  Memory
-  92 / 100
+        <div class="block three">
+          <h3>Verbal</h3>
+          <p>61 /100</p>  
+        </div>
 
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="block four">
+          <h3>Visual</h3>
+          <p>72 /100</p>
+        </div>
+         
+        
+         
+         
+         <button>Continue</button>
+    </div>
+</div>
+</main> 
 </body>
 </html>
