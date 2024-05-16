@@ -11,11 +11,11 @@ body{
 
 .container{
     height: 750px;
-    max-width: 350px;
-    background-color: bisque;
+    max-width: 375px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-  
+    filter: drop-shadow(2px 2px 6px grey);
 }
 
 .divOne{
@@ -24,7 +24,7 @@ body{
     text-align: center;
     color: aliceblue;
   
-    background: linear-gradient(0deg, rgb(0, 102, 255) 0%, rgb(104, 34, 255)  100%);
+    background: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
     border-radius:0 0 25px 25px;
 }
 
@@ -36,25 +36,102 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: aqua;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     padding-inline: 10px;
     border-radius: 10px;
+    font-size: 14px;
 }
+
+.svgwrapper{
+    display: flex;
+    gap: 8px;
+}
+
 
 .one{
-    background-color: lightpink;
+    background-color: rgba(252, 146, 162, 0.171);
 }
 
+.two{
+    background-color: rgba(246, 246, 154, 0.301);
+}
 
+.three{
+    background-color: rgba(120, 255, 120, 0.18);
+}
+
+.four{
+    background-color: #81a0f62e;
+}
+.one h3{
+    color: hsl(0, 100%, 67%);
+}
+
+.two h3{
+    color: hsl(39, 100%, 56%);
+}
+
+.three h3{
+    color: hsl(166, 100%, 37%);
+}
+
+.four h3{
+    color: hsl(234, 85%, 45%);
+
+}
+
+.divTwo h2{
+    font-size: 17px;
+    color: rgb(30, 30, 55);
+    margin-block: 22px;
+}
 button{
-    background-color: rgb(50, 59, 95);
-    width: 280px;
+    background-color:hsl(224, 30%, 27%);
+    width: 296px;
     height: 50px;
     border-radius: 25px;
     color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+  
     
 }
 
 .innerWrapper{
   margin: 10px 45px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.circleScore{
+    
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    line-height: 5px;
+
+}
+
+.circleScore h1{
+    font-size: 55px;
+    margin-top: 70px;
+
+}
+
+span{
+    font-weight: 900;
+    color: rgb(43, 45, 61);
+}
+
+.block p{
+    color: grey;
+}
+
+/* Desktop CSS */
+@media(min-width: 680px){
+
 }
