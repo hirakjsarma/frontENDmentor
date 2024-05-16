@@ -1,0 +1,106 @@
+:root{
+    --BG:hsl(217, 54%, 11%);
+    --cardBg:hsl(216, 50%, 16%);
+    --Primary: hsl(215, 51%, 70%);
+    --Secondary: hsl(178, 100%, 50%);
+    font-family: "Outfit", sans-serif;
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+
+background-color: var(--BG);
+}
+.container{
+margin: 50% auto;
+height: 600px;
+width: 350px;
+background-color: var(--cardBg);
+border-radius: 12px;
+/* overflow: hidden; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 35px;
+color: whitesmoke;
+}
+
+.productImage img{
+height: 350px;
+margin-top: 20px;
+border-radius: 12px;
+
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    border-bottom: 0.1px solid;
+}
+
+.timeWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.timeWrapper img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.timeWrapper p{
+    font-size: 15px;
+    color: var(--Primary);
+}
+.creator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creator img{
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: aliceblue;
+    margin-right: 20px;
+}
+
+
+#view{
+    position: absolute;
+    height: 40px;
+    /* display: none; */
+    padding: 155px;
+}
+
+#cImg:hover + #view{
+    background-color: rgba(121, 255, 255, 0.43);
+    display: block;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.709);
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.valueWarpper{
+    display: flex;
+    align-items: center;
+
+}
+.valueWarpper img{
+margin-right: 10px;
+}
+
+.valueWarpper h2{
+    color: var(--Secondary);
+    font-size: 18px;
+}
+
